@@ -1,0 +1,26 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server",
+    "test": "mocha ./test/**/*.spec.js --timeout 15000"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "dotenv": "^4.0.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.7.7",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1"
+  }
+}
