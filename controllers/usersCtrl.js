@@ -1,6 +1,6 @@
 const usersCtrl = {
   index(req, res) {
-    res.send({ message: 'success' });
+    res.send({ message: 'users' });
   }
 }
 
