@@ -1,0 +1,24 @@
+{
+  "name": "node-express-boilerplate",
+  "scripts": {
+  },
+  "env": {
+    "MONGODB_URL": {
+      "required": true
+    },
+    "JWT_SECRET": {
+      "required": true
+    },
+    "JWT_EXPIRY": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
